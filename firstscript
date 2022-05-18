@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "Hello World , Starting scripting"
-
-# #! -shebang which denots the path of interpreter. 
+echo " #! - is called shebang, which denots the path to interpreter."
 #ec2-user:~/environment $ type bash
 #bash is /usr/bin/bash
 #ec2-user:~/environment $ ls -l /bin/bash

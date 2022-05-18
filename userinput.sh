@@ -3,7 +3,7 @@
 #During the execution
 read -p "Enter the value:" value
 echo "the value you entered:"$value
-#In this process a prompt will be give on the screen for user input during the execution. it will not proceed further it an input is provided.
+#In this process a prompt will be give on the screen for user input during the execution. it will not proceed further till an input is provided.
 #Before the execution 
 # Here we will give the input as command line arguments for the script to execute.
 # We have some special variables to read it from commandline argument.

@@ -1,0 +1,6 @@
+#!/bin/bash
+# Shell wont have any datatypes. Everything is a string type.
+# variable names can have a-z, A-Z, 0-9 and _(underscore).
+# Variable name should start with a-z, A-z and _(underscore) but not with digits.
+# you can read the variable by $ , ${var}
+# if your data has any special charcters, then use double quotes.

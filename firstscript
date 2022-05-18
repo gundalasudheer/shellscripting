@@ -26,3 +26,12 @@ echo -e "tab1\ttab2"
 # magenta 35
 # cyan 36
 echo -e "\e[31mprinting in red color"
+# we can use color code 1 to make the text in the message bold.
+echo -e "\e[1;34mprinting the text in bold"
+# after using the color we need to manually disable it. else the next statments will print with the last used color.
+# for that you need to use 0
+echo -e "\e[1;32mprinting the text in bold and ending the colorcode\e[0;m"
+echo "no color"
+echo -e "\e[33mprinting the text in color"
+echo -e "\e[0;mnocolor"
+echo -e "\e[1;mprinting only in bold text"

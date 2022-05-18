@@ -1,2 +1,15 @@
 #!/bin/bash
 echo "Hello World , Starting scripting"
+
+# #! -shebang which denots the path of interpreter. 
+#ec2-user:~/environment $ type bash
+#bash is /usr/bin/bash
+#ec2-user:~/environment $ ls -l /bin/bash
+#-rwxr-xr-x 1 root root 935976 Jul 15  2020 /bin/bash
+#ec2-user:~/environment $ ls -l /usr/bin/bash
+#-rwxr-xr-x 1 root root 935976 Jul 15  2020 /usr/bin/bash
+#ec2-user:~/environment $ ls -l /usr/bin/sh
+#lrwxrwxrwx 1 root root 4 Apr 28 19:54 /usr/bin/sh -> bash
+#ec2-user:~/environment $
+
+echo "anyline that starts with # is a comment. The interpreter wont execute that line"
